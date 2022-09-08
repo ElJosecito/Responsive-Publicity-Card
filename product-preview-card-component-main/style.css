@@ -17,6 +17,7 @@
     align-items: center;
     background-color: white;
     border-radius: 0.3125rem;
+    padding-bottom: 1.25rem;
 }
 
 .img_container{
@@ -96,6 +97,7 @@ p{
     border-radius: 0.4375rem;
     margin-left: 8%;
     margin-right: 8%;
+    margin-bottom: 1.25rem;
 }
 
 .btn:hover{
@@ -191,6 +193,7 @@ footer{
         border-radius: 0.4375rem;
         width: 70%;
         margin-left: 15%;
+        margin-bottom: 1.25rem;
     }
     
     .btn:hover{
