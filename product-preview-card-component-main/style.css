@@ -1,0 +1,213 @@
+
+
+#principal_section{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_container{
+    width: 43.75rem;
+    height: 31.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.3125rem;
+    padding-bottom: 1.25rem;
+}
+
+.img_container{
+    background-image: url(/images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    width: 50%;
+    border-radius: 0.3125rem 0 0 0.3125rem;
+}
+
+.text_container{
+    height: 100%;
+    width: 50%;
+}
+
+.perfume_text{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.1875rem;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.1875rem;
+    color:  hsl(212, 21%, 14%);
+    padding-right: 15%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -3%;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.0625rem;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5625rem;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.prise_container{
+    font-family: 'Fraunces', serif;
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+.prise_container h2{
+    font-size: 2.1875rem;
+    margin-right: 2%;
+    color: hsl(158, 36%, 37%);
+}
+
+.prise_container h4{
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12%;
+
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    width: 84%;
+    height: 10.5%;
+    border-radius: 0.4375rem;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 1.25rem;
+}
+
+.btn:hover{
+    background-color: hsl(159, 37%, 24%);
+    cursor: pointer;
+}
+
+footer{
+    align-self: flex-end;
+    background-color: hsl(30, 38%, 92%);
+}
+
+
+
+/* Responsive Desing */
+
+@media screen and (max-width: 375px) {
+
+    .card_container{
+        width: 18.75rem;
+        height: 31.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        border-radius: 0.3125rem;
+    }
+
+    .img_container{
+        background-image: url(/images/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100%;
+        width: 100%;
+        border-radius: 0.3125rem 0.3125rem 0 0;
+    }
+
+    .text_container{
+        height: 60%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+
+
+    .perfume_text{
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 0.1875rem;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    h1{
+        font-family: 'Fraunces', serif;
+        font-weight: 500;
+        font-size: 3.7vh;
+        color:hsl(212, 21%, 14%);
+    }
+    
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vh;
+        letter-spacing: 0.0625rem;
+        color: hsl(228, 12%, 48%);
+    }
+    
+    .prise_container{
+        font-family: 'Fraunces', serif;
+        display: flex;
+    }
+    
+    .prise_container h2{
+        font-size: 4vh;
+        color: hsl(158, 36%, 37%);
+    }
+    
+    .prise_container h4{
+        font-size: 2vh;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    .btn{
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        font-size: 3vh;
+        font-family: 'Montserrat', sans-serif;
+        border-style: none;
+        height: 2.5rem;
+        border-radius: 0.4375rem;
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 1.25rem;
+    }
+    
+    .btn:hover{
+        background-color: hsl(159, 37%, 24%);
+        cursor: pointer;
+    }
+    
+    
+  }
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
